@@ -1,0 +1,45 @@
+.groupInput {
+    display: flex;
+    width: 100%;
+
+    .inputEffect {
+        margin: 0 auto;
+        border: 4px solid black;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+        gap: 10px;
+
+        input {
+            padding: 7px 5px;
+            width: 35vw;
+            min-width: 300px;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            background-color: transparent;
+        }
+
+        hr {
+            height: 80%;
+            width: 4px;
+            margin: auto;
+            background-color: black;
+            border: none;
+
+        }
+
+        button {
+            width: auto;
+            background-color: transparent;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 20px;
+        }
+
+    }
+}

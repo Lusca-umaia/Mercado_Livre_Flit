@@ -1,0 +1,24 @@
+.Benefits {
+
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 75px 40px;
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+
+    #line {
+        background-color: blue;
+        position: absolute;
+        height: 80%;
+        top: 0;
+        bottom: 0;
+        border: none;
+        margin: auto 0;
+        width: 10px;
+        left: 10px;
+    }
+}
