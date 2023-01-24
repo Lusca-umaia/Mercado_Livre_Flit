@@ -6,7 +6,7 @@ const InputEffect: React.FC = () => {
     return (
         <div className="groupInput">
             <div className="inputEffect">
-                <Input type={'text'} placeholder={'Pesquise o produto desejado...'} />
+                <Input type={'text'} placeholder={'Pesquise o produto desejado...'} name={'Pesquisar'} />
                 <hr />
                 <button>
                     <img
