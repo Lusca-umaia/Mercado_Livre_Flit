@@ -7,10 +7,8 @@ import './List.scss'
 const List: React.FC = () => {
     return (
         <ul>
-            <Link to={'/'}><Category name='Categorias' /></Link>
-            <Link to={'/'}><Category name='Ofertas do Dia' /></Link>
-            <Link to={'/'}><Category name='Histórico' /></Link>
-            <Link to={'/'}><Category name='Moda' /></Link>
+            <Link to={'/'}><Category name='Produtos' /></Link>
+            <Link to={'/RegisterProducts'}><Category name='Cadastrar Produtos' /></Link>
         </ul>
     )
 }
