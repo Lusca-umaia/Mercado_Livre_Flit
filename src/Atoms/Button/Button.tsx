@@ -3,7 +3,7 @@ import "./styleButton.scss"
 interface IButton {
     name: string
     width?: string
-    handleClick?: (event: React.MouseEvent<HTMLElement>) => void
+    handleClick?: () => void
     disabled?: boolean
 }
 
