@@ -43,13 +43,13 @@ const GroupInput: React.FC = () => {
         },
         validate: (values) => {
             const errors: IpropsItem = {}
-            let regexEspecial = /[^a-zA-Z0-9]+/g
+            let regexEspecial = /^[A-Za-z]+((\s)?([A-Za-z])+)*$/
 
             if (!values.name) {
                 errors.name = 'Preencha este valor'
             }
 
-            if (regexEspecial.test(values.name)) {
+            if (!regexEspecial.test(values.name)) {
                 errors.name = 'Não pode conter caracteres especiais'
             }
 
