@@ -1,7 +1,7 @@
 interface Iprops {
     type: string
-    id: string
-    value: string | number
+    id?: string
+    value?: string | number
     placeholder?: string
     name?: string
     handleChange?: (event: React.ChangeEvent<HTMLInputElement>) => void
